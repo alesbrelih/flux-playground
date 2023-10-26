@@ -1,11 +1,11 @@
 ---
-apiVersion: source.toolkit.fluxcd.io/v1beta2
+apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: customcharts-gitrepository
   namespace: custom-nginx
 spec:
-  interval: 10m0s
+  interval: 2min
   url: https://github.com/alesbrelih/flux-playground
   ref:
     branch: main
