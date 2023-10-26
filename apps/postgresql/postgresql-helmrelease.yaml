@@ -7,7 +7,6 @@ metadata:
 spec:
   chart:
     spec:
-      releaseName: psql
       chart: postgresql
       sourceRef:
         kind: HelmRepository
