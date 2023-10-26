@@ -5,7 +5,7 @@ metadata:
   name: customcharts-gitrepository
   namespace: custom-nginx
 spec:
-  interval: 2min
+  interval: 2m
   url: https://github.com/alesbrelih/flux-playground
   ref:
     branch: main
