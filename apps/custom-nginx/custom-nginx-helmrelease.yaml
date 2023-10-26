@@ -7,8 +7,8 @@ metadata:
 spec:
   chart:
     spec:
-      chart: customcharts
+      chart: custom-chart
       sourceRef:
         kind: GitRepository
-        name: bitnami-postgresql
+        name: customcharts-gitrepository
   interval: 2m
