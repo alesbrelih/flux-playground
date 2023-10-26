@@ -1,0 +1,14 @@
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: custom-nginx
+  namespace: custom-nginx
+spec:
+  chart:
+    spec:
+      chart: customcharts
+      sourceRef:
+        kind: GitRepository
+        name: bitnami-postgresql
+  interval: 2m
